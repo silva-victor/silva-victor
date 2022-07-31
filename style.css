@@ -1,11 +1,51 @@
 body {
     font-family: 'Times New Roman', Times, serif;
-    
+    font-size: 20px;
+    min-width: 500px;
+    width: 100%;
 }
 
 h1 {
-    background-color: rgb(170, 222, 170);
+    background-color: #590202;
+    color: white;
 }
+
+
+.cabecalho {
+    background-color: #f9b673;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: -23px;
+    margin-left: 0px;
+    margin-right: -20px;
+}
+
+.cabecalho a {
+    color: #590202;
+}
+
+
+
+#victor {
+    width: 20px;
+    float: left;
+    position: fixed;
+    width: 20%;
+    height: 20px;
+}
+
+#ladoDireito {
+    float: right;
+    position: relative;
+    padding: 0px 8px 0px 8px;
+    margin: 5px;
+    width: 50%;
+    height: 50%;
+    text-align: left;
+}
+
 
 h2 {
     font-size: 17px;
@@ -22,4 +62,22 @@ ul {
 
 li {
     font-size:  17px;
+}
+
+.rodape {
+    background-color: #590202;
+    color:#f9b673;
+}
+
+a {
+    text-decoration: none;
+    color: #f9b673;
+}
+
+a:hover {
+    color: white;
+}
+
+a:active {
+    color: purple;
 }
